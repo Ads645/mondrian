@@ -1,0 +1,119 @@
+html,
+body
+{background-color: #f6f6f6;
+}
+/*colors*/
+.brown {
+    background-color: brown;
+}
+.red {
+    background-color: #cc3333;
+}
+.blue {
+    background-color: rgb(50, 50, 194);
+}
+.yellow {
+    background-color: rgb(238, 238, 78);
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: green;
+}
+/* direction*/
+.right {
+    float: right;
+}
+
+/*canvas*/
+#painting {
+    height: 400px;
+    width: 400px;
+    background-color: #fff4db;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    box-shadow: 10px 10px 0px #8d8d8d;
+     
+   
+}
+/*rows*/
+#toprow {
+    height: 290px;
+}
+
+#middlerow {
+    height: 10px;
+}
+#bottomrow {
+    height: 100px;
+}
+
+/*column*/
+#lefttopcolum {
+    width: 100px;
+}
+#bottomrightcolumn {
+    width: 20px;
+}
+/*boxes*/
+#widebox {
+    width: 260px;
+    height: 100px;
+}       
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+#smallbox {
+    width: 100px;
+    height: 100px;
+}
+#tinybox {
+    width: 20px;
+    height: 45px;
+}
+/*dividers*/
+#divider1  {
+    height: 290px;
+    width: 10px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    height: 100px;
+    width: 10px;
+}
+#divider4 {
+    height: 10px;
+    width: 20px;
+}
+/*subset boxes*/
+#lefttopcolumn {
+    width: 100px;
+}
+#bottomrightcolumn {
+    width: 20px;
+}
+/* shapesboxes*/
+#bigbox {
+    height: 290px;
+    width: 290px;
+}
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+#smallbox {
+    width: 100px;
+    height: 100px;
+}
+#tinybox {
+    width: 20px;
+    height: 45px;
+}
